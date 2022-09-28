@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Content/LogoMightyducks-01.png">
+    <link rel="stylesheet" href="Styles/estilos.css">
+    <title>Mighty Ducks Hockey League</title>
+</head>
+
+<body>
+    <!--  ? Header -->
+    <header id="Header">
+        <img src="./Content/LogoMightyducks-01.png" alt="" id="Logo-Principal-1" />
+        <img src="./Content/LogoMightyducks-01.png" alt="" id="Logo-Principal-2" />
+        <h1 id="Titulo-Principal">- Mighty Ducks Hockey League -</h1>
+        <nav>
+            <ul id="Contenedor-Navbar">
+                <li><a class="Item-Nav" href="index.html">Home</a></li>
+                <li><a class="Item-Nav" href="./about.html">About</a></li>
+                <li><a class="Item-Nav" href="contact.html">Contact</a></li>
+                <li><a class="Item-Nav" href="game-info.html">Game Information</a></li>
+                <li><a class="Item-Nav" href="rules.html">Rules</a></li>
+                <li><a class="Item-Nav" href="#">Registration</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- ? Main -->
+    <main id="Main__Registration">
+        <section id="Contenedor-Titulo__Registration">
+            <h2>- Registration Form of MDHL -</h2>
+        </section>
+        <div id="Section-1__Registration">
+            <form action="show_data.html" method="get" id="Form__Registration">
+                <fieldset class="Fieldset Fieldset-1">
+                    <legend class="Legend">- Information: -</legend>
+                    <label for="name">Player's First Name:</label>
+                    <input type="text" name="Name" id="name">
+                    <!--  -->
+                    <label for="street">Street Adress:</label>
+                    <input type="text" name="Street" id="street">
+                    <!--  -->
+                    <label for="city">City:</label>
+                    <input type="text" name="City" id="city">
+                    <!--  -->
+                    <label for="zipCode">Zip code:</label>
+                    <input type="text" name="ZipCode" id="zipCode">
+                    <!--  -->
+                    <label for="date-1">Birth Date:</label>
+                    <input type="date" name="Date" id="date-1">
+                    <!--  -->
+                    <label>Gender:</label>
+                    <select id="Select-Gender">
+                        <option value="Famale">Famale</option>
+                        <option value="Male">Male</option>
+                    </select>
+                    <!--  -->
+                    <div id="Contenedor-Input-Grade">
+                        <label class="Titulo-Input">Grade:</label>
+                        <!--  -->
+                        <input type="checkbox" name="Grade" id="Input-PreSchool" value="pre-school">
+                        <label for="Input-PreSchool">Pre-School</label>
+                        <!--  -->
+                        <input type="checkbox" name="Grade" id="Input-Grade-1" value="grade-1">
+                        <label for="Input-Grade-1">1st</label>
+                        <!--  -->
+                        <input type="checkbox" name="Grade" id="Input-Grade-2" value="grade-2">
+                        <label for="Input-Grade-2">2st</label>
+                        <!--  -->
+                        <input type="checkbox" name="Grade" id="Input-Grade-3" value="grade-3">
+                        <label for="Input-Grade-3">3st</label>
+                        <!--  -->
+                        <input type="checkbox" name="Grade" id="Input-Grade-4" value="grade-4">
+                        <label for="Input-Grade-4">4st</label>
+                        <!--  -->
+                        <input type="checkbox" name="Grade" id="Input-Grade-5" value="grade-5">
+                        <label for="Input-Grade-5">5st</label>
+                    </div>
+                </fieldset>
+                <!-- ! -->
+                <fieldset class="Fieldset Fieldset-2">
+                    <legend class="Legend">- Which elementary school do you live near -</legend>
+                    <h3 class="Legend-Secundaria">Closest School:</h3>
+                    <div>
+                        <label for="aj-katzenmaier">AJ-Katzenmaier</label>
+                        <input type="checkbox" name="School" value="aj-katzenmaier" id="aj-katzenmaier">
+                        <!--  -->
+                        <label for="greenbay">Greenbay</label>
+                        <input type="checkbox" name="School" value="greenbay" id="greenbay">
+                        <!--  -->
+                        <label for="HowardAYeager">Howard A Yeager</label>
+                        <input type="checkbox" name="School" value="Howard A Yeager" id="HowardAYeager" >
+                        <!--  -->
+                        <label for="MargoriePHart">Margorie P Hart</label>
+                        <input type="checkbox" name="School" value="Margorie P Hart" id="MargoriePHart">
+                        <!--  -->
+                        <label for="NorthElementary">North Elementary</label>
+                        <input type="checkbox" name="School" value="North Elementary" id="NorthElementary">
+                        <!--  -->
+                        <label for="SouthElementary">South Elementary</label>
+                        <input type="checkbox" name="School" value="South Elementary" id="SouthElementary">
+                    </div>
+                </fieldset>
+                <!-- ! -->
+                <fieldset class="Fieldset Fieldset-3">
+                    <legend class="Legend">- What's position(s) do you normally play? (Check all the apply) -</legend>
+                    <div>
+                        <label for="YouthSmall">Youth Small</label>
+                        <input type="checkbox" name="Position" value="Youth Small" id="YouthSmall">
+                        <!--  -->
+                        <label for="YouthMedium">Youth Medium</label>
+                        <input type="checkbox" name="Position" value="Youth Medium" id="YouthMedium">
+                        <!--  -->
+                        <label for="YouthLarge">Youth Large</label>
+                        <input type="checkbox" name="Position" value="Youth Large" id="YouthLarge">
+                        <!--  -->
+                        <label for="Small">Small</label>
+                        <input type="checkbox" name="Position" value="Small" id="Small">
+                        <!--  -->
+                        <label for="Medium">Medium</label>
+                        <input type="checkbox" name="Position" value="Medium" id="Medium">
+                        <!--  -->
+                        <label for="Large">Large</label>
+                        <input type="checkbox" name="Position" value="Large" id="Large">
+                        <!--  -->
+                        <label for="Extra-Large">Extra-Large</label>
+                        <input type="checkbox" name="Position" value="Extra-Large" id="Extra-Large">
+                        <!--  -->
+                    </div>
+                </fieldset>
+                <!-- ! -->
+                <fieldset class="Fieldset Fieldset-4">
+                    <legend class="Legend">- Permission to play -</legend>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and
+                        I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In
+                        recognizing the posibility of physical injury associated with hockey and in
+                        consideration for the "League" accepting the registrant for its hockey
+                        programs and activities, I hereby release, discharge, and/or otherwise indemnify
+                        MDHL, their employees and associated personnel and volunteers, including the
+                        facilities used for practices and games, against any claim by or behalf of the
+                        registrant as a result of the registrant's participation in the programand/orbeing
+                        transported to or from MDHL sponsored activities, which transportation.
+                        By signing below, I hereby agree and authorize the above. In addition, by signing below
+                        I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
+
+                    <div>
+                        <label for="Parent-Guardian">Parent-Guardian</label>
+                        <input type="text" name="Parent-Guardian" id="Parent-Guardian">
+                        <label for="date-2">Date:</label>
+                        <input type="date" name="Date-of-Firm" id="date-2">
+                    </div>
+                </fieldset>
+                <div id="Contenedor-Button">
+                    <input type="submit" value="Enviar Rey" id="Btn-Enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+
+
+
+
+
+
+
+</body>
+
+</html>
