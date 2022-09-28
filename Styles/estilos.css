@@ -1,0 +1,699 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+        url("../Content/design2_image1\ -\ Editado.png");
+    background-size: cover;
+}
+
+/*  */
+
+#Header {
+    /* border:2px solid red; */
+    width: 100%;
+    background: linear-gradient(188deg,
+            rgba(0, 0, 0, 1) 36%,
+            rgba(32, 32, 32, 1) 58%,
+            rgba(0, 0, 0, 1) 75%);
+    color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    padding: 5px;
+    z-index: 2;
+}
+
+#Logo-Principal-1{
+    width: 7.3rem;
+    justify-content: center;
+    position: absolute;
+    margin: 10rem;
+    align-self: flex-start;
+}
+
+
+#Logo-Principal-2{
+    width: 7.3rem;
+    justify-content: center;
+    position: absolute;
+    margin: 12rem;
+    align-self: flex-end;
+}
+
+nav{
+    align-self: center;
+}
+
+#Titulo-Principal {
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(212, 16, 16);
+    margin: 0.5rem 0;
+    font-family: "Dosis", sans-serif;
+}
+
+#Contenedor-Navbar {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10px;
+    opacity: 0.8;
+    align-self: center;
+}
+
+#Contenedor-Navbar li {
+    list-style: none;
+}
+
+.Item-Nav {
+    list-style: none;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+    font-family: "Dosis", sans-serif;
+    transition: ease 0.5s;
+}
+
+.Item-Nav:focus{
+    border-bottom: 2px solid red;
+}
+
+.Item-Nav:hover {
+    color: red;
+    cursor: pointer;
+}
+
+#Banner__Header-Index {
+    /* border: 2px solid green; */
+    background-image: url(../Content/design1_image1.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 75vh;
+    margin: 180px 50px 100px 50px;
+}
+
+#Titulo-Upcoming {
+    text-align: center;
+    color: white;
+    font: 1rem;
+    background-color: black;
+    padding: 20px;
+}
+
+#Main-Index {
+    display: flex;
+    width: auto;
+}
+
+#Contenedor__Main-1 {
+    /* border: 5px solid rgb(255, 25, 0); */
+    height: 55rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    margin-left: 10rem;
+}
+
+.Item-Main {
+    /* border: 3px solid blue; */
+    height: 20rem;
+    width: 20rem;
+    margin: 15px 0px;
+    border-radius: 50%;
+    transition: ease 0.6s;
+    cursor: pointer;
+}
+
+.Item-Main:hover {
+    transform: scale(1.1);
+}
+
+#Item-Main-1 {
+    align-self: flex-start;
+    background-image: url(../Content/hockey1.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+#Item-Main-2 {
+    background-image: url(../Content/hockey2.jpg);
+    background-size: cover;
+    background-position: center right;
+    position: absolute;
+    top: 13rem;
+    left: 13rem;
+    z-index: 0;
+}
+
+#Item-Main-2:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#Item-Main-3 {
+    align-self: flex-start;
+    background-image: url(../Content/hockey3.jpg);
+    background-size: cover;
+    background-position: center left;
+    position: absolute;
+    top: 27rem;
+    z-index: 1;
+}
+
+#Contenedor__Main-2 {
+    /* border: 5px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 5rem 0rem;
+    margin-top: 2rem;
+    margin-right: 7rem;
+}
+
+.Item-Main__Index {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#Titulo-Footer {
+    text-align: center;
+    color: white;
+    font: 1rem;
+    background-color: black;
+    padding: 15px;
+}
+
+/* ? Styles About */
+/* ? Styles About */
+
+#Main-About {
+    /* border: 5px solid greenyellow; */
+    margin-top: 8rem;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#Section-1-About {
+    /* border: 2px solid green; */
+    color: white;
+    width: 100%;
+    height: 45rem;
+    font-size: 1.5rem;
+    align-self: center;
+    margin: 50px 0px;
+    font-family: "Dosis", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.Contenedor__Items-Main {
+    width: 80rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Item-Title-Main {
+    color: red;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#Titulo-Footer-About {
+    text-align: center;
+    color: white;
+    font: 1rem;
+    background-color: black;
+    padding: 15px;
+    margin-top: 5rem;
+}
+
+/* ? Styles Contact */
+/* ? Styles Contact*/
+
+#Main-Contact {
+    /* border: 4px solid red; */
+    margin-top: 13rem;
+    height: 40vh;
+}
+
+#Section__Main-1 {
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Item-Main__Contact {
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 50rem;
+    text-align: center;
+}
+
+#Title__Main-Contact {
+    color: red;
+    font-family: "Dosis", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+.Item-Main__Contact {
+    color: white;
+    font-family: "Dosis", sans-serif;
+    font-size: 1.5rem;
+    margin: 30px 0px;
+    letter-spacing: 1px;
+}
+
+#Link-Contact {
+    color: red;
+    margin-left: 10px;
+}
+
+#Banner__Main-Contact {
+    /* border: 2px solid green; */
+    background-image: url(../Content/hockey1-B_W.png);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 65vh;
+    margin: 180px 50px 100px 50px;
+}
+
+/* ? Styles Game Info */
+/* ? Styles Game Info */
+
+#Main-GameInfo{
+    margin-top: 10rem;
+    /* height: 100vh; */
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+}
+
+#Section-1-GameInfo{
+    /* border:  2px solid green; */
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    padding: 1rem;
+    font-family: "Dosis", sans-serif;
+    padding-left: 4rem;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+#ContenedorTitulo__Main-GameInfo{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0rem 2rem 0rem;
+    font-family: "Dosis", sans-serif;
+    color: red;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+}
+
+#Section-2-GameInfo{
+  /*   border: 2px solid yellow; */
+    min-height: 30rem;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+table, tr, th, td{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+.Iframe{
+    width: 100%;
+    height: 4.5rem;
+    border-radius: 40px;
+}
+
+th{
+    color: red;
+    font-size: 1.5rem;
+}
+
+td{
+    color: white;
+    font-size: 1.2rem;
+}
+
+#Contenedor__Main-3{
+    /* border: 4px solid forestgreen; */
+    color: rgb(255, 255, 255);
+    margin-top: 2rem;
+    letter-spacing: 1px;
+}
+
+.Highcontent{
+    color: rgb(255, 0, 0);
+}
+
+.Item__Main-3{
+    margin: 1rem 0;
+    text-align: center;
+    margin: 8rem 0;
+}
+
+#Footer__GameInfo{
+    /* border: 3px solid cornflowerblue; */
+    margin-top: 10rem;
+    padding: 1rem;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    justify-content: space-evenly;
+    background: linear-gradient(188deg,
+            rgba(0, 0, 0, 1) 36%,
+            rgba(32, 32, 32, 1) 58%,
+            rgba(0, 0, 0, 1) 75%);
+    color: rgb(245, 245, 245);
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.Item-Footer{
+    margin: 1rem 0;
+    text-align: center;
+}
+
+/* ? Styles Rules */
+/* ? Styles Rules */
+
+#Main-Rules{
+    /* border: 3px solid salmon; */
+    margin-top: 12rem;
+    color: white;
+    font-family: "Dosis", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#Contenedor-Titulos_Main__Rules{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10rem;
+}
+
+#Titulos-Rules-1{
+    color: red;
+}
+
+#Contenedor-Banners__Main__Rules{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Banner__Header-Rules-1 {
+    /* border: 2px solid green; */
+    background-image: url(../Content/MDHL2.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30rem;
+    margin: 50px 50px;
+}
+
+#Banner__Header-Rules-2 {
+    /* border: 2px solid green; */
+    background-image: url(../Content/MDHL1.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30rem;
+    margin: 50px 50px;
+}
+
+#Banner__Header-Rules-3 {
+    /* border: 2px solid green; */
+    background-image: url(../Content/MDHL3.jpeg);
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 30rem;
+    margin: 50px 50px;
+}
+
+#Contenedor-General-Textos__Main__Rules{
+    /* border: 3px solid greenyellow; */
+    height: 80rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.Contenedor-Texto__Main__Rules{
+    /* border: 2px solid blue; */
+    justify-content: space-between;
+    width: 38rem;
+    height: 35rem;
+    text-align: center;
+    line-height: 4.8rem;
+    background-color: black;
+    color: red;
+    font-size: 1.3rem;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Parraph_Main__Rules{
+    color: white;
+}
+
+#Lista-Contenedor__Rules li{
+   /*  border: 2px solid red; */
+    list-style-type:decimal;
+    list-style-position: inside;
+    color: white;
+}
+
+#Contenedor-Texto-2__Main__Rules{
+    align-self: flex-end;
+    font-size: 15px;
+    line-height: 33px;
+}
+#Titulo_Main__Rules-2{
+    margin-bottom: 20px;
+}
+
+#Contenedor-Texto-3__Main__Rules{
+    align-self: flex-start;
+}
+
+#Footer-Rules{
+    margin-top: 5rem;
+}
+
+/* ? Styles Registration  */
+/* ? Styles Registration  */
+
+#Contenedor-Titulo__Registration{
+    color: red;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem;
+    font-family: "Dosis", sans-serif;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+#Section-1__Registration{
+    /* border: 2px solid green; */
+    width: 100%;
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+#Form__Registration{
+    width: 80%;
+}
+
+.Legend{
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    padding: 1.5rem;
+}
+
+.Legend-Secundaria{
+    font-size: 1.3rem;
+    color: red;
+    margin-bottom: 1rem;
+}
+
+#Contenedor-Input-Grade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#Contenedor-Input-Grade input, label{
+    margin: 0 .5rem;
+    color: white;
+    letter-spacing: 0.5px;
+}
+
+.Titulo-Input{
+    font-size: 1.6rem;
+    color: red;
+}
+.Fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px double red;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.Fieldset-1{
+    gap: 1rem;
+}
+
+.Fieldset-1>label{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    font-family: "Dosis", sans-serif;
+}
+
+.Fieldset-1>input{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    background: linear-gradient(188deg,
+            rgba(0, 0, 0, 1) 36%,
+            rgba(32, 32, 32, 1) 58%,
+            rgba(0, 0, 0, 1) 75%);
+    border-radius: 20px;
+    height: 2.5rem;
+    padding: 25px;
+}
+
+
+.Fieldset-1>select{
+    padding: 13px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    background: linear-gradient(188deg,
+    rgba(0, 0, 0, 1) 36%,
+    rgba(32, 32, 32, 1) 58%,
+    rgba(0, 0, 0, 1) 75%);
+    color: rgb(221, 216, 216);
+}
+
+.Fieldset-2 div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Fieldset-3{
+    padding: 40px;
+}
+
+.Fieldset-3 div{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.Fieldset-4 div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: .5rem;
+}
+
+.Fieldset-4>p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+.Fieldset-4>div>label{
+    color: rgb(255, 0, 0);
+    font-size: 1.5rem;
+    font-family: "Dosis", sans-serif;
+}
+
+.Fieldset-4>div>input{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    background: linear-gradient(188deg,
+            rgba(0, 0, 0, 1) 36%,
+            rgba(32, 32, 32, 1) 58%,
+            rgba(0, 0, 0, 1) 75%);
+    border-radius: 20px;
+    height: 2.5rem;
+    padding: 25px;
+}
+
+#Contenedor-Button{
+    margin-top: 2rem;
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Btn-Enviar{
+    height: 3rem;
+    width: 13rem;
+    border-radius: 30px;
+    font-family: "Dosis", sans-serif;
+    font-size: 1.2rem;
+    background: linear-gradient(188deg,
+            rgba(0, 0, 0, 1) 36%,
+            rgba(32, 32, 32, 1) 58%,
+            rgba(0, 0, 0, 1) 75%);
+            color: white;
+            letter-spacing: 1px;
+}
+
